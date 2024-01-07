@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Destinize</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper">
+            <div class="nav-one">
+                <div class="main-logo">
+                    <div class="main-logo-img">
+                        <img src="./images/icon-512 2.png" alt="">
+                    </div>
+                    <div class="main-logo-text">
+                        <p>Destinize</p>
+                    </div>
+                </div>
+                <div class="nav-one-search-bar">
+                    <img class="nav-one-search-bar-img" src="./images/Icon copy 4.png" alt="">
+                    <input class="nav-one-search-bar-input" type="text" placeholder="Cari apapun disini...">
+                </div>
+                <div class="nav-one-lang">
+                    <div class="nav-one-lang-icon">
+                        <img src="./images/Icon.png" alt="">
+                    </div>
+                    <select id="nav-one-lang-wrapper">
+                        <option value="Bahasa Indonesia" class="nav-one-lang-choices">Bahasa Indonesia</option>
+                        <option value="Bahasa Indonesia" class="nav-one-lang-choices">Bahasa Indonesia</option>
+                        <option value="Bahasa Indonesia" class="nav-one-lang-choices">Bahasa Indonesia</option>
+                    </select>
+                </div>
+                <div class="nav-one-countries">
+                    <div class="nav-one-countries-icon">
+                        <img src="./images/Icon copy.png" alt="">
+                    </div>
+                    <div class="nav-one-countries-select-wrapper">
+                        <label for="nav-one-countries-select" class="nav-one-countries-label">Lokasi</label>
+                        <select id="nav-one-countries-select">
+                            <option value="Indonesia, Yogyakarta" class="nav-one-countries-selection">Indonesia, Yogyakarta</option>
+                            <option value="Indonesia, Yogyakarta" class="nav-one-countries-selection">Indonesia, Yogyakarta</option>
+                            <option value="Indonesia, Yogyakarta" class="nav-one-countries-selection">Indonesia, Yogyakarta</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-two">
+                <div class="nav-two-list">
+                    <div class="nav-two-list-options-wrapper">
+                        <select id="nav-two-list-options">
+                            <option value="Gunung" class="nav-two-list-option">Gunung</option>
+                            <option value="Gunung" class="nav-two-list-option">Gunung</option>
+                            <option value="Gunung" class="nav-two-list-option">Gunung</option>
+                        </select>
+                    </div>
+                    <div class="nav-two-list-options-wrapper pantai">
+                        <select id="nav-two-list-options">
+                            <option value="Pantai" class="nav-two-list-option">Pantai</option>
+                            <option value="Pantai" class="nav-two-list-option">Pantai</option>
+                            <option value="Pantai" class="nav-two-list-option">Pantai</option>
+                        </select>
+                    </div>
+                    <div class="nav-two-list-options-wrapper kuliner">
+                        <select id="nav-two-list-options">
+                            <option value="Kuliner" class="nav-two-list-option">Kuliner</option>
+                            <option value="Kuliner" class="nav-two-list-option">Kuliner</option>
+                            <option value="Kuliner" class="nav-two-list-option">Kuliner</option>
+                        </select>
+                    </div>
+                    <div class="nav-two-list-options-wrapper outbond">
+                        <select id="nav-two-list-options">
+                            <option value="Outbond" class="nav-two-list-option">Outbond</option>
+                            <option value="Outbond" class="nav-two-list-option">Outbond</option>
+                            <option value="Outbond" class="nav-two-list-option">Outbond</option>
+                        </select>
+                    </div>
+                    <div class="nav-two-list-options-wrapper">
+                        <select id="nav-two-list-options">
+                            <option value="Sejarah" class="nav-two-list-option">Sejarah</option>
+                            <option value="Sejarah" class="nav-two-list-option">Sejarah</option>
+                            <option value="Sejarah" class="nav-two-list-option">Sejarah</option>
+                        </select>
+                    </div>
+                    <div class="nav-two-list-options-wrapper">
+                        <select id="nav-two-list-options">
+                            <option value="Edukasi" class="nav-two-list-option">Edukasi</option>
+                            <option value="Edukasi" class="nav-two-list-option">Edukasi</option>
+                            <option value="Edukasi" class="nav-two-list-option">Edukasi</option>
+                        </select>
+                    </div>
+                    <div class="nav-two-list-options-wrapper romantis">
+                        <select id="nav-two-list-options">
+                            <option value="Romantis" class="nav-two-list-option">Romantis</option>
+                            <option value="Romantis" class="nav-two-list-option">Romantis</option>
+                            <option value="Romantis" class="nav-two-list-option">Romantis</option>
+                        </select>
+                    </div>
+                    <div class="nav-two-list-options-wrapper alam">
+                        <select id="nav-two-list-options">
+                            <option value="Alam" class="nav-two-list-option">Alam</option>
+                            <option value="Alam" class="nav-two-list-option">Alam</option>
+                            <option value="Alam" class="nav-two-list-option">Alam</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="nav-two-icons">
+                    <div class="nav-two-delete">
+                        <img src="./images/Icon copy 2.png" alt="">
+                    </div>
+                    <div class="nav-two-user">
+                        <img src="./images/Icon copy 3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero-text">
+                <div class="hero-text-one">
+                    <div class="hero-text-one-title-wrapper">
+                        <img src="./images/✈ • Temukan Destinasi Favoritmu.png" alt="" class="hero-text-one-title-img"> 
+                        <p class="hero-text-one-title">• Explore the wonderful indonesia!</p>
+                    </div>
+                </div>
+                <div class="hero-text-two">
+                    <p class="hero-text-two-title">Liburan & nikmati
+                        <span class="color-blue">tempat baru</span> di 
+                        indonesia  ️🏝
+                    </p>
+                </div>
+                <div class="hero-text-three">
+                    <p>Destinize membuat kamu selalu update terkait tempat liburan baru di Indonesia dengan mengikuti perkembangan para influencer di sosial media ✨</p>
+                </div>
+                <div class="hero-text-icons-wrapper">
+                    <button class="hero-text-btn">Mulai sekarang →</button>
+                    <div class="hero-text-play-btn">
+                        <div class="hero-text-play-btn-img"><img src="./images/Polygon 1.png" alt=""></div>
+                        <p class="hero-text-play-btn-text">Putar Demo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="./images/Group 592 1.png" alt="">
+            </div>
+        </section>
+        <section class="section-one">
+            <div class="section-one-img">
+                <img src="./images/image 27.png" alt="">
+            </div>
+            <div class="section-one-img">
+                <img src="images/image 28.png" alt="">
+            </div>
+            <div class="section-one-img">
+                <img src="images/image 29.png" alt="">
+            </div>
+            <div class="section-one-img">
+                <img src="images/image 30.png" alt="">
+            </div>
+            <div class="section-one-img">
+                <img src="images/image 31.png" alt="">
+            </div>
+        </section>
+        <section class="section-two">
+            <div class="section-two-text">
+                <p class="section-two-text-one">DESTINASI FAVORIT</p>
+                <div class="section-two-text-two">
+                    <div class="section-two-text-two-1">
+                        <img class="section-two-text-two-1-icon" src="./images/✈ • Temukan Destinasi Favoritmu.png" alt="">
+                        <p class="section-two-text-two-1-title">• Temukan Destinasi Favoritmu</p>
+                    </div>
+                    <div class="section-two-text-two-2">
+                        <p class="section-two-text-two-2-link">Lihat semua</p>
+                        <img class="section-two-text-two-2-icon" src="images/Vector 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="section-two-images">
+                <div class="section-two-img">
+                    <img src="./images/image 4.png" alt="">
+                    <div class="section-two-img-text">
+                        <p class="section-two-img-text-title1">Raja Ampat</p>
+                        <p class="section-two-img-text-title2">Bali</p>
+                    </div>
+                </div>
+                <div class="section-two-img">
+                    <img src="./images/Screen Shot 2020-02-14 at 4.36 1.png" alt="">
+                    <div class="section-two-img-text">
+                        <p class="section-two-img-text-title1">Labuan Bajo</p>
+                        <p class="section-two-img-text-title2">NTT</p>
+                    </div>
+                </div>
+                <div class="section-two-img">
+                    <img src="./images/Screen Shot 2020-02-15 at 11.04 1.png" alt="">
+                    <div class="section-two-img-text">
+                        <p class="section-two-img-text-title1">Kawah Ijen</p>
+                        <p class="section-two-img-text-title2">Jawa Timur</p>
+                    </div>
+                </div>
+                <div class="section-two-img">
+                    <img src="./images/Screen Shot 2020-02-15 at 11.10 1.png" alt="">
+                    <div class="section-two-img-text">
+                        <p class="section-two-img-text-title1">Bromo</p>
+                        <p class="section-two-img-text-title2">Jawa Timur</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-three">
+            <div class="section-three-text">
+                <p class="section-three-title1">RESERVASI TEMPAT</p>
+                <p class="section-three-title2">Gak mau ngantri? reservasi aja! 🤙🏻</p>
+                <div class="section-three-text-rows">
+                    <div class="section-three-text1-img-wrapper">
+                        <img src="./images/magni.png" alt="" class="section-three-text1-img">
+                    </div>
+                    <div class="section-three-text-rows-desc">
+                        <p class="section-three-text-title">Cari tempat yang kamu mau</p>
+                        <p class="section-three-text-txt">Temukan destinasi selanjutnya yang akan kamu kunjungi dengan Destinize</p>
+                    </div>
+                </div>
+                <div class="section-three-text-rows">
+                    <div class="section-three-text1-img-wrapper">
+                        <img src="./images/pencil.png" alt="" class="section-three-text2-img">
+                    </div>
+                    <div class="section-three-text-rows-desc">
+                        <p class="section-three-text-title">Isi data dan konfirmasi pembayaran</p>
+                        <p class="section-three-text-txt">Tulis dan lengkapi data kamu untuk keperluan data booking</p>
+                    </div>
+                </div>
+                <div class="section-three-text-rows">
+                    <div class="section-three-text1-img-wrapper">
+                        <img src="./images/heart face.png" alt="" class="section-three-text1-img">
+                    </div>
+                    <div class="section-three-text-rows-desc">
+                        <p class="section-three-text-title">Tinggal masuk dan enjoy!</p>
+                        <p class="section-three-text-txt">Kamu bisa langsung masuk dan enjoy liburan kamu tanpa hambatan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-three-image">
+                <div class="ellipse-wrapper">
+                    <img src="./images/Ellipse 8.png" alt="" class="ellipse">
+                </div>
+                <div class="section-three-image1-card">
+                    <img src="./images/unsplash_1kdIG_258bU.jpg" alt="" class="section-three-image1-card-img">
+                    <div class="section-three-image1-card-text">
+                        <p class="section-three-image1-title">Liburan ke Bali  🚗</p>
+                        <p class="section-three-image1-date">14-29 Juni &nbsp; | &nbsp;  by Shandika</p>
+                        <div class="section-three-image1-icons">
+                            <div class="section-three-image-icon-wrapper">
+                                <img src="./images/leaf 1.png" alt="" class="section-three-image-icon">
+                            </div>
+                            <div class="section-three-image-icon-wrapper">
+                                <img src="images/map 1.png" alt="" class="section-three-image-icon">
+                            </div>
+                            <div class="section-three-image-icon-wrapper">
+                                <img src="images/send 2.png" alt="" class="section-three-image-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-three-image1-text-wrapper">
+                        <img src="./images/Group 2.png" alt="" class="section-three-image1-text-icon">
+                        <p class="section-three-image1-text">12 Orang pergi bersama</p>
+                        <img src="./images/heart.png" alt="" class="section-three-image1-text-icon-heart">
+                    </div>
+                </div>
+                <div class="section-three-image2-card">
+                    <div class="section-three-image2-card-wrapper">
+                        <div class="section-three-image2-img">
+                            <img src="./images/Mask Group.png" alt="">
+                        </div>
+                        <div class="section-three-image2-titles">
+                            <p class="section-three-image2-title1">Ongoing</p>
+                            <p class="section-three-image2-title2">Jelajah Indonesia</p>
+                            <p class="section-three-image2-pecentage"><span class="percent-blue">40%</span> completed</p>
+                            <div class="section-three-image2-progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-four">
+            <p class="section-four-title1">CARI TEMPAT WISATA</p>
+            <p class="section-four-title2">🗺 • Cari Tempat Wisata Didekatmu</p>
+            <p class="section-four-title3">Fitur ini memungkinkan kamu untuk mencari tempat wisata atau tempat yang sedang populer di daerah kamu dengan begitu kamu akan selalu update dan gak kudet lagi 👍🏻</p>
+            <img src="./images/Base.png" alt="" class="section-four-img">
+            <div class="section-four-text-cols">
+                <div class="section-four-text-col">
+                    <div class="section-four-icon location">
+                        <img src="images/Vector.png" alt="">
+                    </div>
+                    <div class="section-four-text-col-titles">
+                        <p class="section-four-text-col-title1">Populer di dekatmu</p>
+                        <p class="section-four-text-col-title2">Tempat pariwisata yang populer dan pasti dikenal semua orang didekatmu</p>
+                    </div>
+                </div>
+                <div class="section-four-text-col">
+                    <div class="section-four-icon">
+                        <img src="./images/favorite.png" alt="">
+                    </div>
+                    <div class="section-four-text-col-titles">
+                        <p class="section-four-text-col-title1">Favorit di dekatmu</p>
+                        <p class="section-four-text-col-title2">Tempat favorit dan disukai semua orang orang di sekitar daerah kamu</p>
+                    </div>
+                </div>
+                <div class="section-four-text-col">
+                    <div class="section-four-icon">
+                        <img src="./images/assigment.png" alt="">
+                    </div>
+                    <div class="section-four-text-col-titles">
+                        <p class="section-four-text-col-title1">Ramai di didekatmu</p>
+                        <p class="section-four-text-col-title2">Spot yang paling ramai dikunjungi para warga sekaligus para wisatawan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-five">
+            <p class="section-five-title1">MENGENAL DESTINIZE</p>
+            <div class="section-five-title2">
+                <p class="section-five-title2-text">🖼• Galeri Pariwisata & Blog Travel</p>
+                <div class="section-five-title2-link">
+                    <p class="section-five-title2-link-txt">Lihat semua</p>
+                    <img src="./images/Vector 1.png" alt="" class="section-five-title2-link-icon">
+                </div>
+            </div>
+            <div class="section-five-images-grid">
+                <div class="section-five-image1-card">
+                    <img src="./images/media.png" alt="" class="section-five-image1-img">
+                    <div class="section-five-text">
+                        <p class="section-five-image1-date">26 DESEMBER 2021</p>
+                        <p class="section-five-image1-title1">Tips naik gunung Bromo <br>
+                            Biar gak capek cyin 😥😛</p>
+                        <p class="section-five-image1-title2">Jadi gini gann, anda tau bromo?
+                            yaaa gunung kann!</p>
+                        <p class="section-five-image1-link"><a href="#">Baca selengkapnya ..</a></p>
+                    </div>
+                </div>
+                <div class="section-five-image2">
+                    <img src="images/media bg-cover.png" alt="">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="section-five-image3">
+                    <img src="./images/media bg-cover (1).png" alt="" class="section-five-image3-img">
+                    <div class="section-five-image3-text">
+                        <p class="section-five-image3-text-one">Tips meminum air kawah biar lidah melepuh 😁</p>
+                        <p class="section-five-image3-text-two">Lidah melepuh? why nott, kawah bukan untuk dilihat kawan.. tapi untuk di minum.. rasakan
+                            kepanasan yang brutal 🔥</p>
+                        <ul class="section-five-image3-links">
+                            <li class="section-five-image3-link"><a href="#">Google</a></li>
+                            <li class="section-five-image3-link"><a href="#">Trending</a></li>
+                            <li class="section-five-image3-link"><a href="#">Baru</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-six">
+            <div class="section-six-titles">
+                <p class="section-six-title1">TESTIMONIAL DESTINIZE</p>
+                <p class="section-six-title2">💬 • Apa Kata Mereka Tentang Kami</p>
+                <p class="section-six-title3">Penasaran apa saja review dari pengguna yang memakai aplikasi dan website Destinize buat nentuin kemana liburan mereka selanjutnya? Yuk cek dibawah!</p>
+            </div>
+            <div class="section-six-cards">
+                <div class="section-six-card">
+                    <img src="./images/circle-box circle-xl mx-auto.png" alt="" class="section-six-card-img">
+                    <p class="section-six-card-text">Destinize membantu saya <br>
+                        Mencari spot tempat wisata baru <br>
+                        di Indonesia dengan Mudah</p>
+                    <img src="./images/stars.png" alt="" class="section-six-card-stars">
+                    <p class="section-six-card-name1">Sandhika Galih</p>
+                    <p class="section-six-card-name2">Dosen di WPU</p>
+                </div>
+                <div class="section-six-card">
+                    <img src="./images/circle-box circle-xl mx-auto (1).png" alt="" class="section-six-card-img">
+                    <p class="section-six-card-text">Destinize membantu saya <br>
+                        mendapatkan jodoh, tidak disangka <br>
+                        bahwa jodoh saya adalah CS nya</p>
+                    <img src="./images/stars.png" alt="" class="section-six-card-stars">
+                    <p class="section-six-card-name1">Syauqizaidan Khairan Khalaf</p>
+                    <p class="section-six-card-name2">Mahasiswa di WPU</p>
+                </div>
+                <div class="section-six-card">
+                    <img src="./images/circle-box circle-xl mx-auto (2).png" alt="" class="section-six-card-img">
+                    <p class="section-six-card-text">Bikini Bottom menjadi sangat <br>
+                        ramai dikunjungi saat saya <br>
+                        memasukkannya di Destinize</p>
+                    <img src="./images/stars.png" alt="" class="section-six-card-stars">
+                    <p class="section-six-card-name1">Petrik Sesat</p>
+                    <p class="section-six-card-name2">Warga di Bikini Bottom</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-seven">
+            <p class="section-seven-title1">FREQUENTLY ASKED QUESTION</p>
+            <div class="section-seven-title2">
+                <p class="section-seven-title2-text">🤔• Pertanyaan yang Sering Diajukan</p>
+                <div class="section-seven-title2-link">
+                    <p class="section-seven-title2-link-text"><a href="#">Lihat semua</a></p>
+                    <img src="./images/Vector 1.png" alt="" class="section-seven-title2-link-icon">
+                </div>
+            </div>
+            <div class="section-seven-frequent-questions">
+                <div class="section-seven-question">
+                    <p class="section-seven-question-text">Kenapa ya pembayaranku gagal banh? 😁</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="section-seven-question">
+                    <p class="section-seven-question-text">Apakah rehan wangsaff adalah CEO dari Destinize? 😅😅😅</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="section-seven-question answer">
+                        <div class="section-seven-question-text1">
+                            <p class="section-seven-question-text-q">Kenapa harus memilih Destinize?</p>
+                            <i class="fa-solid fa-chevron-up"></i>
+                        </div>
+                        <p class="section-seven-question-text-a">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                            dummy text ever since the 1500s, wh</p>
+                </div>
+                <div class="section-seven-question">
+                    <p class="section-seven-question-text">Afa iyah bang? Gapeduli 👆🏻😅</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="section-seven-question">
+                    <p class="section-seven-question-text">Apa rekomendasi tempat buat orang yang jomblo? 😥</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </section>
+        <section class="section-eight">
+            <div class="section-eight-text">
+                <p class="section-eight-title">Masih bingung cari tempat yang cocok? 🤔</p>
+                <p class="section-eight-desc">Tenang, kami mempunyai fitur rekomendasi yang membantu kamu mencari tempat berlibur yang tepat dengan menjawab pertanyaan yang kami berikan.</p>
+                <div class="section-eight-link">
+                    <p class="section-eight-link-text">Mulai sekarang</p>
+                    <img src="./images/right-arrow.png" alt="" class="section-eight-link-icon">
+                </div>
+            </div>
+            <div class="section-eight-img">
+                <img src="./images/On the way-pana (1) 1.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-section">
+            <div class="footer-section-contact-col">
+                <img src="./images/icon-512 2.png" alt="" class="footer-section-contact-col-img">
+                <p class="footer-section-contact-col-title">Destinize</p>
+                <p class="footer-section-contact-col-desc">Destinize adalah website atau layanan aplikasi yang membantu kamu memilih atau merekomendasikan tempat yang dijuluki ‘hidden gems’ agar lebih dikenal dan ramai <span class="blue">Baca Selengkapnya</span></p>
+                <div class="footer-section-contact-col-details">
+                    <img src="./images/Icon 5.png" alt="" class="footer-section-contact-col-details-icon">
+                    <p class="footer-section-contact-col-details-txt">0851-5616-2840</p>
+                </div>
+                <div class="footer-section-contact-col-details">
+                    <img src="images/Icon 4.png" alt="" class="footer-section-contact-col-details-icon">
+                    <p class="footer-section-contact-col-details-txt">syaokay@gmail.com</p>
+                </div>
+                <div class="footer-section-contact-col-details">
+                    <img src="images/Icon 3.png" alt="" class="footer-section-contact-col-details-icon">
+                    <p class="footer-section-contact-col-details-txt">Ciamis, Jawa Barat. Indonesia</p>
+                </div>
+                <div class="footer-section-contact-col-details">
+                    <img src="images/Icon 2.png" alt="" class="footer-section-contact-col-details-icon">
+                    <p class="footer-section-contact-col-details-txt">+1-212-9876543</p>
+                </div>
+                <div class="footer-section-contact-col-details">
+                    <img src="" alt="" class="footer-section-contact-col-details-icon">
+                    <p class="footer-section-contact-col-details-txt">© 2021-2022, All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="footer-section-cols-sec">
+                <div class="footer-section-cols">
+                    <div class="footer-section-col">
+                        <p class="footer-section-col-title">Tentang</p>
+                        <ul class="footer-section-col-links">
+                            <li><a href="#" class="footer-section-col-link">Tentang Kami</a></li>
+                            <li><a href="#" class="footer-section-col-link">Blog</a></li>
+                            <li><a href="#" class="footer-section-col-link">Karir</a></li>
+                            <li><a href="#" class="footer-section-col-link">Pekerjaan</a></li>
+                            <li><a href="#" class="footer-section-col-link">Berita</a></li>
+                            <li><a href="#" class="footer-section-col-link">Galeri</a></li>
+                            <li><a href="#" class="footer-section-col-link">Afiliasi</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section-col">
+                        <p class="footer-section-col-title">Support</p>
+                        <ul class="footer-section-col-links">
+                            <li><a href="#" class="footer-section-col-link">Kontak Kami</a></li>
+                            <li><a href="#" class="footer-section-col-link">Online Chat</a></li>
+                            <li><a href="#" class="footer-section-col-link">Whatsapp</a></li>
+                            <li><a href="#" class="footer-section-col-link">Telegram</a></li>
+                            <li><a href="#" class="footer-section-col-link">Tiket</a></li>
+                            <li><a href="#" class="footer-section-col-link">Call Center</a></li>
+                            <li><a href="#" class="footer-section-col-link">Bantuan</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section-col">
+                        <p class="footer-section-col-title">FAQ</p>
+                        <ul class="footer-section-col-links">
+                            <li><a href="#" class="footer-section-col-link">Akun</a></li>
+                            <li><a href="#" class="footer-section-col-link">Organisir</a></li>
+                            <li><a href="#" class="footer-section-col-link">Order</a></li>
+                            <li><a href="#" class="footer-section-col-link">Pembayaran</a></li>
+                            <li><a href="#" class="footer-section-col-link">Pengembalian</a></li>
+                            <li><a href="#" class="footer-section-col-link">Copyright</a></li>
+                            <li><a href="#" class="footer-section-col-link">Bahasa</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="footer-section-cols-row-links">
+                    <li><a href="#" class="footer-section-cols-row-link">Tentang Kami</a></li>
+                    <li><a href="#" class="footer-section-cols-row-link">Kontak</a></li>
+                    <li><a href="#" class="footer-section-cols-row-link">Privasi & policy</a></li>
+                    <li><a href="#" class="footer-section-cols-row-link">Sitemap</a></li>
+                    <li><a href="#" class="footer-section-cols-row-link">Panduan Pengunaan</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
